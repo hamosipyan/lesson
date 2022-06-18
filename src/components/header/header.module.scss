@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: center;
+  min-height: 15rem;
+  background: chocolate;
+  align-items: center;
+}
+.menu {
+  display: flex;
+
+  li {
+    margin-left: 2rem;
+    font-size: 2.4rem;
+    a {
+      color: white;
+      &:hover {
+        color: aquamarine;
+      }
+    }
+  }
+  .activeLink{
+    color: aquamarine;
+  }
+}
